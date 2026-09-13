@@ -94,10 +94,69 @@ body{
   flex-direction: column;
 }
 #heading{
-  margin-top: 45px;
+  margin-top: 70px;
   font-size: 25px;
   font-family: "Dancing Script";
-  margin-left: -30px;
+  margin-left: -35px;
   font-weight: 1000;
   color: #6B21A8;
+}
+#paragarph{
+  display: flex;
+  flex-direction: column;
+  margin-left: -30px;
+  font-size: 10px;
+  font-weight: 500;
+  padding-top: 5px;
+  font-family: "Open Sans";
+  color: #4B5563;
+  text-transform: uppercase;
+}
+.introtxt{
+  display:flex;
+  flex-direction: column;
+}
+.mid{
+  display:flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#introtext{
+  font-family: "Open Sans";
+  color: #4B5563;
+  line-height: 1.6;
+  font-size: 10px;
+}
+.btn-group{
+  display: flex;
+  flex-direction: row;
+  gap:40px;
+  margin-top: 100px;
+  justify-content: center;  
+}
+#DownloadBtn{
+  text-decoration: none;
+  border-radius:12px;
+  background: #6B21A8;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-left: -5px;
+  color:white;
+  box-shadow: 0px 8px 20px rgba(107, 33, 168, 0.35);
+}
+#contact{
+  text-decoration: none;
+  border-radius:12px;
+  background: #6B21A8;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-right: -5px;
+  color:white;
+  align-items:center;
+  box-shadow: 0px 8px 20px rgba(107, 33, 168, 0.35);
 }
