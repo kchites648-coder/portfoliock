@@ -174,94 +174,130 @@ svg{
   width: 100%;
   margin-bottom: -1px;
 }
-.Fcontent{
+.logo{
   display: flex;
   flex-direction: row;
-  width: 100%;
-  gap:60px;
-  }
-  
-
-#link{
-  font-family: "Montserrat";
-  color:white;
-  font-size: 20px;
-  font-weight: 600; 
-  background-color: 
-    #6B4A9E;
-  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.3);
-  border-radius: 15px;
+  justify-content: center;
+  gap: 10px;
+}
+#insta{
+  display: inline-flex;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.12);
+  text-decoration: none;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.25);
+  align-items:center;
   padding-bottom: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
   padding-top: 10px;
-  margin-left: 20px;
+  font-size: 
+    25px;
+  justify-content: center;
 
 }
-
-#con{
-  font-family: "Montserrat";
-  color:white;
-  font-size: 20px;
-  font-weight: 600; 
-  background-color: 
-    #6B4A9E;
-  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.3);
-  border-radius: 15px;
+#youtube{
+  display: inline-flex;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.12);
+  text-decoration: none;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.25);
+  align-items:center;
   padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 10px;
-  margin-right: 10px;
+  font-size: 
+    20px;
+  justify-content: center;
+}
+
+#fa{
+  display: inline-flex;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.12);
+  text-decoration: none;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.25);
+  align-items:center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 
+    20px;
+  justify-content: center;
+}
+#te{
+  display: inline-flex;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.12);
+  text-decoration: none;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.25);
+  align-items:center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 
+    20px;
+  justify-content: center;
+}
+#li{
+  display: inline-flex;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.12);
+  text-decoration: none;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.25);
+  align-items:center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 
+    20px;
+  justify-content: center;
+}
+#git{
+  display: inline-flex;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.12);
+  text-decoration: none;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.25);
+  align-items:center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 
+    20px;
+  justify-content: center;
 }
 .linktxt{
   display: flex;
   flex-direction: column;
-  gap:20px;
+  align-items:center;
+  margin-top: 40px;
+  gap: 50px;
+  
 }
 
-#h{
+.txt{
   text-decoration: none;
   font-family: "Open Sans";
-  margin-left: 80px;
-  padding-top: 20px;
-  color: white;
-  transition: 0.2s;
-}
-#h:hover {
-  color: blue;
-}
-#a{
-  text-decoration: none;
-  font-family: "Open Sans";
-  margin-left: 80px;
-  padding-top: 20px;  
-  color: white;
-  transition: 0.2s;
-}
-#a:hover {
-  color: blue;
-}
-#s{
-  text-decoration: none;
-  font-family: "Open Sans";
-  margin-left: 80px;
-  padding-top: 20px;
-  color:white;
-  transition: 0.2s;
-}
-#s:hover {
-  color: blue;
-}
-#c{
-  text-decoration: none;
-  font-family: "Open Sans";
-  margin-left: 80px;
-  padding-top: 20px;
+  color: #D1D5DB;
+  transition: 0.3s;
   padding-bottom: 30px;
-  color:white;
-  transition: 0.2s;
 }
-#c:hover {
-  color: blue;
+.txt:hover {
+   color: blue;
+}
+.right{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#righttxt{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color:#EEEEEE;
 }
